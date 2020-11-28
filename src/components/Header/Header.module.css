@@ -1,0 +1,51 @@
+.Header {
+    padding: 0px 10px 0px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Icon {
+    display: none;
+}
+
+.MenuItems {
+    display: none
+}
+
+.Link:link {
+    text-decoration: none;
+    color: white
+}
+
+.Link:visited {
+    text-decoration: none;
+    color: white
+}
+
+.Link:hover {
+    background-color: grey;
+}
+
+.Link:active {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+    .MenuItems {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+    }
+    
+    .MenuItems li {
+        display: inline;
+        padding: 0px 10px 0px;
+    }
+
+    .Icon {
+        display: flex;
+    }
+}
