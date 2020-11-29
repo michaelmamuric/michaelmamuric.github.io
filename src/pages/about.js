@@ -1,17 +1,16 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
-import WelcomeBanner from '../components/WelcomeBanner/WelcomeBanner';
 import Grid from '@material-ui/core/Grid';
 import './index.css';
 
-const Home = () => {
+const About = () => {
   return (
     <Layout>
       <Grid item xs={12}>
-        <WelcomeBanner />
+        
       </Grid>
     </Layout>
   )
 }
 
-export default Home;
+export default About;

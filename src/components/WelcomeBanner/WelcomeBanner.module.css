@@ -1,8 +1,8 @@
 .Banner {
     background-image: url('../../../static/WebDev.jpg');
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height: 30vh;
+    height: 100vh;
     padding: 5px;
     color: white;
     display: flex;
@@ -26,11 +26,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-    .Banner {
-        background-position: bottom;
-        height: 60vh;
-    }
-
     .Name, .Desc {
         font-size: 36pt;
         display: inline-block;
