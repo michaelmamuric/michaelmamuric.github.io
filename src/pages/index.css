@@ -1,7 +1,10 @@
 body {
-    font-family: "Arial";
+    font-family: "Titillium Web";
     margin: 0;
-    background-color: #282828;
+    background: url('../../static/WebDev_Transparent.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .MainContent {

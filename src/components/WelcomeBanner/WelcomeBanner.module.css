@@ -21,8 +21,19 @@
 }
 
 .DevImg {
-    width: 75px;
+    width: 100px;
     border-radius: 50%
+}
+
+.Name, .Desc, .DevImg {
+    animation: dev;
+    animation-duration: 2s;
+}
+
+@keyframes dev {
+    0% { opacity: 0;}
+    50% { opacity: 0.5};
+    100% { opacity: 1;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -38,4 +49,5 @@
     .DevImg {
         width: 150px;
     }
+
 }

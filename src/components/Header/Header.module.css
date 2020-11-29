@@ -1,12 +1,12 @@
 .Header {
     padding: 0px 10px 0px;
-    background: #282828;
+    background: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
     position: fixed;
-    top:0;
     width: 100%;
     overflow: hidden;
 }
@@ -65,7 +65,7 @@
     }
 
     .Logo {
-        width: 75px
+        width: 75px;
     }
 
 }

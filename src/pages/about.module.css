@@ -1,0 +1,36 @@
+.NonHomeGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh
+}
+
+.NonHomeGrid p {
+    width: 70%;
+    text-align: justify;
+    font-size: 12pt
+}
+
+.NonHomeGrid a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+.NonHomeGrid a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+.NonHomeGrid a:hover {
+    color: darkblue ;
+}
+
+.NonHomeGrid a:active {
+    color: lightblue ;
+}
+
+@media only screen and (min-width:600px) {
+    .NonHomeGrid p {
+        font-size: 15pt
+    }
+}
