@@ -1,0 +1,46 @@
+.Banner {
+    background-image: url('../../../static/WebDev.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 30vh;
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name, .Desc {
+    font-size: 20pt;
+    display: inline-block;
+}
+
+.Desc {
+    font-size: 10pt;
+}
+
+.DevImg {
+    width: 75px;
+    border-radius: 50%
+}
+
+@media only screen and (min-width: 600px) {
+    .Banner {
+        background-position: bottom;
+        height: 60vh;
+    }
+
+    .Name, .Desc {
+        font-size: 36pt;
+        display: inline-block;
+    }
+
+    .Desc {
+        font-size: 18pt;
+    }
+
+    .DevImg {
+        width: 150px;
+    }
+}

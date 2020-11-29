@@ -9,7 +9,7 @@ const Layout = (props) => {
                 <Header />
             </Grid>
             {props.children}       
-         </Grid>
+        </Grid>
     )
 }
 

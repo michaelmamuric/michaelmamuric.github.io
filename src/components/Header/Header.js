@@ -7,7 +7,7 @@ import classes from './Header.module.css';
 
 const Header = (props) => {
     return (
-        <Grid item xs={12} className={classes.Header}>
+        <Grid item className={classes.Header}>
             <IconButton edge="start" color="inherit">
                 <MenuIcon />
             </IconButton>

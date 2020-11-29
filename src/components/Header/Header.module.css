@@ -5,10 +5,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*
+    position: fixed;
+    top:0;
+    width: 100%;*/
 }
 
 .Icon {
-    display: none;
+    display: flex;
 }
 
 .MenuItems {
@@ -40,12 +44,12 @@
         list-style: none;
     }
     
-    .MenuItems li {
+    .MenuItems a {
         display: inline;
         padding: 0px 10px 0px;
     }
 
     .Icon {
-        display: flex;
+        display: none;
     }
 }
