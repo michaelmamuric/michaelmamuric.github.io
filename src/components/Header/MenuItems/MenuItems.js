@@ -3,11 +3,20 @@ import { Link } from 'gatsby';
 import classes from '../Header.module.css';
 
 const MenuItems = () => {
+
+    const items = [
+        { link: '#about', displayText: 'About'},
+        { link: '#projects', displayText: 'Projects'},
+        { link: '#contact', displayText: 'Contact'},
+    ];
+
     return (
         <nav className={classes.MenuItems}>
-            <Link to="#about" className={classes.Link}>About</Link>
-            <Link to="#projects" className={classes.Link}>Projects</Link>
-            <Link to="#contact" className={classes.Link}>Contact</Link>
+        {
+            items.map((item, index) => {
+                return <Link key={item.link} to={item.link} className={classes.Link}>{item.displayText}</Link>
+            })
+        }
         </nav>
     )
 }

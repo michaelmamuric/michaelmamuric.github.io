@@ -5,10 +5,13 @@ html {
 body {
     font-family: "Titillium Web";
     margin: 0;
+    /*
     background: url('../../static/WebDev_Transparent.png');
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
+    background: rgb(105,105,105);
+    background: linear-gradient(180deg, rgba(105,105,105,1) 0%, rgba(211,211,211,1) 49%);
 }
 
 .MainContent {

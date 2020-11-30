@@ -1,6 +1,5 @@
 import React from 'react';
 import Chip from '@material-ui/core/Chip';
-import { Link } from 'gatsby';
 import Grid from '@material-ui/core/Grid';
 import classes from './Projects.module.css';
 
@@ -9,7 +8,7 @@ const Projects = () => {
   const projects = [
     { 
         title: "The Sanitizing Shop",
-        description: "\"Inspired\" by COVID-19, it is a mock e-commerce app that sells sanitizing products, such as wet wipes and hand sanitizers. Uses the MERN Stack.",
+        description: "A mock e-commerce app that sells sanitizing products, such as wet wipes and hand sanitizers, that was \"inspired\" by the COVID-19 pandemic. Uses the MERN Stack.",
         chips: ['React', 'Redux', 'Material UI', 'Firebase', 'Heroku', 'MongoDB', 'Express', 'Node.js'],
         image: 'sanitizing.png',
         liveLink: 'https://the-sanitizing-shop.herokuapp.com/',
@@ -35,33 +34,33 @@ const Projects = () => {
 
   return (
       <Grid id="projects" item xs={12} className={classes.ProjectsGrid}>
-        <h1>Check out some of my works.</h1>
+        <h1>Here are some of my works.</h1>
         <br />
         <Grid container spacing={1}>
           {
               projects.map((project) => {
                   return (
-                      <Grid key={project.title} item xs={12} sm={6} style={{padding: '15px'}}>
+                      <Grid key={`Project-${project.title}`} item xs={12} sm={6} style={{padding: '15px'}}>
                           <img src={`./${project.image}`} alt={project.title} className={classes.ProjectImg} />
                           <h3>{project.title}</h3>
                           {
                             project.chips.map((chip, index) => {
                                 return ( 
-                                    <>
-                                        <Chip style={{fontFamily: 'Titillium Web'}} key={`${project.title} ${index}`} label={chip} />&nbsp;&nbsp;
-                                    </>
+                                    <React.Fragment key={`Chip-${project.title}-${index}`}> 
+                                        <Chip style={{fontFamily: 'Titillium Web'}} label={chip} />&nbsp;&nbsp;
+                                    </React.Fragment>
                                 );
                             })
                           }
                           <p>{project.description}</p>
                           {
                             project.liveLink !== null ?
-                            <Link to={project.liveLink} className={classes.LiveDemo}>View Demo</Link>
+                            <a href={project.liveLink} className={classes.LiveDemo}>View Demo</a>
                             : null
                           }
                           {
                             project.githubLink !== null ?
-                            <Link to={project.githubLink} className={classes.LiveDemo}>View Code</Link>
+                            <a href={project.githubLink} className={classes.LiveDemo}>View Code</a>
                             : null
                           }
                       </Grid>    

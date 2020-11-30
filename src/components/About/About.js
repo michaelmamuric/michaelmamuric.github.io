@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import classes from './About.module.css';
-import { Link } from 'gatsby';
 
 const About = () => {
   return (
@@ -12,8 +11,8 @@ const About = () => {
             and how we always have to be constantly learning about new industry trends.
           </p>
           <p>
-            I have a Bachelor's Degree in Information Technology from <Link to="https://www.dlsud.edu.ph">De La Salle University - Dasmariñas</Link>,
-            and a Diploma in Information Technology from the <Link to="https://www.sait.ca">Southern Alberta Institute of Technology (SAIT)</Link>.
+            I have a Bachelor's Degree in Information Technology from <a href="https://www.dlsud.edu.ph">De La Salle University - Dasmariñas</a>,
+            and a Diploma in Information Technology from the <a href="https://www.sait.ca">Southern Alberta Institute of Technology (SAIT)</a>.
             I have 3 years experience as a Software Engineer back in the Philippines. My main line of work
             was mainly on database programming and testing in Oracle and PL/SQL, but recently, I have taken more
             interest in Full-Stack Web Development.
