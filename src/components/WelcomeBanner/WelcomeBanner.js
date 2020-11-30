@@ -4,7 +4,7 @@ import classes from './WelcomeBanner.module.css';
 
 const WelcomeBanner = (props) => {
     return (
-        <Grid item className={classes.Banner}>
+        <Grid item xs={12} className={classes.Banner}>
             <div>
                 <img src={'./Me.jpg'} alt="Michael Mamuric" className={classes.DevImg}/>
             </div>

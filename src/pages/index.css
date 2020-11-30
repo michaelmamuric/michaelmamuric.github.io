@@ -1,10 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Titillium Web";
     margin: 0;
     background: url('../../static/WebDev_Transparent.png');
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
 }
 
 .MainContent {
