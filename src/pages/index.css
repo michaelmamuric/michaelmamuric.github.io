@@ -5,11 +5,6 @@ html {
 body {
     font-family: "Titillium Web";
     margin: 0;
-    /*
-    background: url('../../static/WebDev_Transparent.png');
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;*/
     background: rgb(105,105,105);
     background: linear-gradient(180deg, rgba(105,105,105,1) 0%, rgba(211,211,211,1) 49%);
 }
@@ -17,4 +12,23 @@ body {
 .MainContent {
     color: white;
     padding: 5px
+}
+
+h1 { 
+    font-size:20pt 
+}
+
+p {
+    font-size:12pt;
+    text-align:justify
+}
+
+@media only screen and (min-width:600px) {
+    h1 { 
+        font-size:25pt 
+    }
+
+    p {
+        font-size:15pt
+    }
 }

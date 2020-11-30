@@ -7,14 +7,10 @@
     padding-bottom: 10vh;
 }
 
-.AboutGrid h1 {
-    font-size: 20pt
-}
 
 .AboutGrid p {
     width: 70%;
     text-align: justify;
-    font-size: 12pt
 }
 
 .AboutGrid a:link {
@@ -42,11 +38,4 @@
         padding-bottom: 15vh;
     }
 
-    .AboutGrid p {
-        font-size: 15pt
-    }
-
-    .AboutGrid h1 {
-        font-size: 25pt
-    }
 }

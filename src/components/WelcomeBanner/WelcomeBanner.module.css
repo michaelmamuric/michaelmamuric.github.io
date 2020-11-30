@@ -12,12 +12,16 @@
 }
 
 .Name, .Desc {
-    font-size: 20pt;
+    font-size: 25pt;
     display: inline-block;
 }
 
+.Name {
+    font-weight: bold;
+}
+
 .Desc {
-    font-size: 10pt;
+    font-size: 15pt;
 }
 
 .DevImg {

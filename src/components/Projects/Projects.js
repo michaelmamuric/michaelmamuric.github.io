@@ -46,9 +46,9 @@ const Projects = () => {
                           {
                             project.chips.map((chip, index) => {
                                 return ( 
-                                    <React.Fragment key={`Chip-${project.title}-${index}`}> 
-                                        <Chip style={{fontFamily: 'Titillium Web'}} label={chip} />&nbsp;&nbsp;
-                                    </React.Fragment>
+                                  <div key={`Chip-${project.title}-${index}`} className={classes.Chips}>
+                                    <Chip label={chip} style={{fontFamily: 'Titillium Web'}} />
+                                  </div>
                                 );
                             })
                           }

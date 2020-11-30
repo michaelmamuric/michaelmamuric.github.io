@@ -11,28 +11,13 @@
    padding-right: 5vh;
 }
 
-.ProjectsGrid h1 {
-    font-size: 20pt
-}
-
-.ProjectsGrid p {
-    text-align: justify;
-    font-size: 12pt
-}
-
 .ProjectImg {
-    width: 300px;
-    transition: transform .2s;
-}
-
-.ProjectImg:hover {
-    transform: scale(1.25);
+    width: 250px;
 }
 
 .Chips {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    display: inline-block;
+    padding: 3px
 }
 
 .LiveDemo:link, .LiveDemo:visited {
@@ -58,17 +43,9 @@
 
 @media only screen and (min-width:600px) {
 
-    .ProjectsGrid h1 {
-        font-size: 25pt
-    }    
-
     .ProjectsGrid {
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
 
-    .ProjectsGrid p {
-        font-size: 15pt;
-        text-align: justify;
-    }
 }

@@ -20,11 +20,11 @@ const Contact = () => {
                 &nbsp;&nbsp;
                 <SocialIcon url='https://github.com/michaelmamuric' bgColor='#000000' />
             </Grid>
-          </Grid>
-          <Grid item xs={12} className={classes.FooterGrid}>
-            <p>
-                &#169; 2020 by Michael Mamuric
-            </p>
+            <Grid item xs={12} className={classes.FooterGrid}>
+              <p>
+                  &#169; 2020 by Michael Mamuric
+              </p>
+            </Grid>
           </Grid>
       </Grid>
   )

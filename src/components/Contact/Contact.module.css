@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 15vh;
 }
 
 .DetailsGrid {
@@ -15,21 +14,23 @@
 }
 
 .FooterImg {
-    width: 100px
+    width: 125px
 }
 
 .FooterGrid {
-    padding-top: 30px;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (min-width:600px) {
 
-    .FooterImg {
-        width: 150px
+    .ContactGrid {
+        padding-top: 10vh;
     }
 
-    .DetailsGrid h1 {
-        font-size:25pt;
+    .FooterImg {
+        width: 150px
     }
 
 }
