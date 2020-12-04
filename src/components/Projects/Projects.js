@@ -18,7 +18,7 @@ const Projects = () => {
         title: "The Sanitizing Shop",
         description: "A mock e-commerce app that sells sanitizing products, such as wet wipes and hand sanitizers, that was \"inspired\" by the COVID-19 pandemic. Uses the MERN Stack.",
         chips: ['React', 'Redux', 'Material UI', 'Firebase', 'Heroku', 'MongoDB', 'Express', 'Node.js'],
-        image: 'sanitizing.png',
+        image: 'sanitizing.PNG',
         liveLink: 'https://the-sanitizing-shop.herokuapp.com/',
         githubLink: 'https://github.com/michaelmamuric/the-sanitizing-shop'
     },
