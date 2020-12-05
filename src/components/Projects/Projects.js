@@ -11,7 +11,7 @@ const Projects = () => {
         description: "A simplified Kanban Board App that organizes tasks into categories in order to manage workload properly. Features CSS animations when tasks are added and recategorized.",
         chips: ['React', 'Redux', 'React Bootstrap', 'React Transition Group', 'Heroku'],
         image: 'Kanban_Mobile.png',
-        liveLink: 'https://easy-kanban-board.herokuapp.com//',
+        liveLink: 'https://easy-kanban-board.herokuapp.com/',
         githubLink: 'https://github.com/michaelmamuric/Kanban-Board'
     },
     { 
