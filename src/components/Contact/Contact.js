@@ -16,7 +16,7 @@ const Contact = () => {
             <Grid item xs={12} className={classes.DetailsGrid}>
                 <SocialIcon className={classes.SocialIcon} url='mailto:michael.mamuric@gmail.com' bgColor='#000000'/>
                 &nbsp;&nbsp;
-                <SocialIcon url='https://www.linkedin.com/in/michaelthomasmamuric' bgColor='#000000' />
+                <SocialIcon url='https://www.linkedin.com/in/mmmamuric' bgColor='#000000' />
                 &nbsp;&nbsp;
                 <SocialIcon url='https://github.com/michaelmamuric' bgColor='#000000' />
             </Grid>
